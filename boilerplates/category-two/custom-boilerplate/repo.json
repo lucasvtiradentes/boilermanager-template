@@ -1,0 +1,71 @@
+{
+  "description": "hello world application",
+  "image": {
+    "src": "",
+    "width": "",
+    "height": ""
+  },
+  "app_features": [
+    "a basic hello world nodejs application",
+    "other cool feature here"
+  ],
+  "project_features": [
+    "project feature 01",
+    "project feature 02",
+    "project feature 03"
+  ],
+  "commands": [
+    {
+      "description": "Install dependencies",
+      "command": "npm install"
+    },
+    {
+      "description": "Run the project in production mode",
+      "command": "npm run start"
+    }
+  ],
+  "options": [
+    {
+      "name": "selection1",
+      "message": "select the command to run: ",
+      "list": [
+        {
+          "title": "option 01",
+          "file": "./.options/cmd1.js"
+        },
+        {
+          "title": "option 02",
+          "file": "./.options/cmd2.js"
+        }
+      ]
+    },
+    {
+      "name": "selection2",
+      "message": "select the command2 to run: ",
+      "list": [
+        {
+          "title": "option 03",
+          "file": "./.options/cmd3.js"
+        },
+        {
+          "title": "option 04",
+          "file": "./.options/cmd4.js"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    "[boilermanager documentation](https://github.com/lucasvtiradentes/boilermanager#readme)",
+    "[current repository documentation](https://github.com/lucasvtiradentes/bpm-boilerplates-template#readme)"
+  ],
+  "app_techs": [
+    "nodejs",
+    "typescript",
+    "express",
+    "jest"
+  ],
+  "project_techs": [
+    "vscode",
+    "editorconfig"
+  ]
+}

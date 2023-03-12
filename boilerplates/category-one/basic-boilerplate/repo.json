@@ -1,0 +1,39 @@
+{
+  "description": "hello world application",
+  "image": {
+    "src": "",
+    "width": "",
+    "height": ""
+  },
+  "app_features": [
+    "a basic hello world nodejs application",
+    "other cool feature here"
+  ],
+  "project_features": [
+    "project feature 01",
+    "project feature 02",
+    "project feature 03"
+  ],
+  "commands": [
+    {
+      "description": "Install dependencies",
+      "command": "npm install"
+    },
+    {
+      "description": "Run the project in production mode",
+      "command": "npm run start"
+    }
+  ],
+  "options": [],
+  "resources": [
+    "[boilermanager documentation](https://github.com/lucasvtiradentes/boilermanager#readme)",
+    "[current repository documentation](https://github.com/lucasvtiradentes/bpm-boilerplates-template#readme)"
+  ],
+  "app_techs": [
+    "nodejs"
+  ],
+  "project_techs": [
+    "vscode",
+    "editorconfig"
+  ]
+}

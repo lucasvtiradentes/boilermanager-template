@@ -1,0 +1,17 @@
+{
+  "name": "application-name",
+  "description": "description",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "your name",
+    "email": "youremail@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/repository.git"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
